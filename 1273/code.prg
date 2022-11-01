@@ -6,7 +6,7 @@ PROCEDURE MAIN
    
    //EXEC RUN "ip address"  TO cCommand1
    //EXEC RUN "lshw -short"  TO cCommand2
-   EXEC RUN "sudo lsblk "  TO cCommand1
+   EXEC RUN "df -h "  TO cCommand1
    
 
    cCommandTodos += cCommand1 + hb_eol()
