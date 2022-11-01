@@ -1,11 +1,12 @@
 // 2022-11-01 13:36
 PROCEDURE MAIN
 
-   LOCAL cCommand1, cCommand2
+   LOCAL cCommand1 := cCommand2 := ""
    LOCAL cCommandTodos := ""
    
-   EXEC RUN "ip address"  TO cCommand1
-   EXEC RUN "lshw -short"  TO cCommand2
+   //EXEC RUN "ip address"  TO cCommand1
+   //EXEC RUN "lshw -short"  TO cCommand2
+   EXEC RUN "sudo lsblk "  TO cCommand1
    
 
    cCommandTodos += cCommand1 + hb_eol()
