@@ -1,4 +1,4 @@
-// 2022-11-01
+// 2022-11-01 13:17
 PROCEDURE MAIN
 
    LOCAL cCommand1, cCommand2
