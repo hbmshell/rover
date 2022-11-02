@@ -7,7 +7,7 @@ PROCEDURE MAIN
    LOCAL  cTo := "hbmshell@gmail.com" //"vlademirolandim@gmail.com"
    LOCAL  cPreOrigem := "HbmShell "
    
-   
+   AADD( aCommand , "date" )
    AADD( aCommand , "ip address" )
    AADD( aCommand , "lshw -short" )
    AADD( aCommand , "df -h | grep -v loop" )
