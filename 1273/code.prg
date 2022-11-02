@@ -5,7 +5,7 @@ PROCEDURE MAIN
    
    LOCAL cCommandTodos := ""
    LOCAL  cTo := "hbmshell@gmail.com" //"vlademirolandim@gmail.com"
-   LOCAL  cPreOrigem := "Estação 1273 / " + dtoc(Date()) + " " + Time() + " " + StrZero(Seconds(),7)
+   LOCAL  cPreOrigem := "HbmShell "
    
    
    AADD( aCommand , "ip address" )
@@ -19,6 +19,6 @@ PROCEDURE MAIN
        cCommandTodos += cCommand + hb_eol()
    NEXT
 
-   EnviaEmail( cPreOrigem, cTo, "Resultado da máquina " + strzero(hb_RandomInt(1,1000),4) , cCommandTodos )
+   EnviaEmail( cPreOrigem, cTo, "Resultado da máquina " + " + dtoc(Date()) + " " + Time() + " " + StrZero(Seconds(),7) , cCommandTodos )
    
  RETURN  
