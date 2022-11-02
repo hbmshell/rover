@@ -3,6 +3,8 @@ PROCEDURE MAIN
 
    LOCAL cCommand1 := cCommand2 := ""
    LOCAL cCommandTodos := ""
+   LOCAL  cTo := "hbmshell@gmail.com" //"vlademirolandim@gmail.com"
+   LOCAL  cPreOrigem := "Estação 1273 / " + dtoc(Date()) + " " + Time() + " " + StrZero(Seconds(),7)
    
    //EXEC RUN "ip address"  TO cCommand1
    //EXEC RUN "lshw -short"  TO cCommand2
@@ -11,6 +13,6 @@ PROCEDURE MAIN
 
    cCommandTodos += cCommand1 + hb_eol()
    cCommandTodos += cCommand2 + hb_eol()
-   ? cCommandTodos
+   EnviaEmail( cPreOrigem, cTo, "Resultado da máquina " + strzero(hb_RandomInt(1,1000),4) , cCommandTodos )
    
  RETURN  
