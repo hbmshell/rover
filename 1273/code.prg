@@ -1,17 +1,22 @@
-// 2022-11-02 - 00:17
+// 2022-11-02 - 00:23
 PROCEDURE MAIN
 
-   LOCAL aCommand := {}, cCommand
+   LOCAL aCommand := {}, cCommand, aTitulo := {}
    LOCAL cCommandTodos := ""
    LOCAL  cTo := "hbmshell@gmail.com" //"vlademirolandim@gmail.com"
    LOCAL  cPreOrigem := "Estação 1273 / " + dtoc(Date()) + " " + Time() + " " + StrZero(Seconds(),7)
    
+   AADD( aTitulo , "Endereço IP das interfaces" )
    AADD( aCommand , "ip address" )
+   AADD( aTitulo , "Hardware" )
    AADD( aCommand , "lshw -short" )
+   AADD( aTitulo , "Disco" )
    AADD( aCommand , "df -h | grep -v loop" )
    
    FOR x := 1 TO LEN( aCommand )
        EXEC RUN aCommand[x]  TO cCommand
+       cCommandTodos += aTitulo[x] + hb_eol()
+       cCommandTodos += Replicate("-",80) + hb_eol()
        cCommandTodos += cCommand + hb_eol()
    NEXT
 
