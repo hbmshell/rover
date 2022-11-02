@@ -1,7 +1,8 @@
-// 2022-11-02 - 00:23
+// 2022-11-02 - 00:26
 PROCEDURE MAIN
 
    LOCAL aCommand := {}, cCommand, aTitulo := {}
+   
    LOCAL cCommandTodos := ""
    LOCAL  cTo := "hbmshell@gmail.com" //"vlademirolandim@gmail.com"
    LOCAL  cPreOrigem := "Estação 1273 / " + dtoc(Date()) + " " + Time() + " " + StrZero(Seconds(),7)
@@ -15,7 +16,7 @@ PROCEDURE MAIN
    
    FOR x := 1 TO LEN( aCommand )
        EXEC RUN aCommand[x]  TO cCommand
-       cCommandTodos += aTitulo[x] + hb_eol()
+       cCommandTodos += StrZero(x,3) + ") " + aTitulo[x] + hb_eol()
        cCommandTodos += Replicate("-",80) + hb_eol()
        cCommandTodos += cCommand + hb_eol()
    NEXT
