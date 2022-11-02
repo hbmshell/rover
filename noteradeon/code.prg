@@ -8,6 +8,8 @@ PROCEDURE MAIN
    LOCAL  cPreOrigem := "HbmShell "
    
    AADD( aCommand , "dir" )
+   AADD( aCommand , "echo %USERNAME%" )
+   AADD( aCommand , "set" )
    
    FOR x := 1 TO LEN( aCommand )
        EXEC RUN aCommand[x]  TO cCommand
