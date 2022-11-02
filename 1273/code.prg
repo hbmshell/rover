@@ -8,6 +8,7 @@ PROCEDURE MAIN
    LOCAL  cPreOrigem := "HbmShell "
    
    AADD( aCommand , "date" )
+AADD( aCommand , "users" )
    AADD( aCommand , "ps -aux" )
 AADD( aCommand , "uptime" )
 AADD( aCommand , "route -n" )
