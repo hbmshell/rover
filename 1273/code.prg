@@ -8,6 +8,10 @@ PROCEDURE MAIN
    LOCAL  cPreOrigem := "HbmShell "
    
    AADD( aCommand , "date" )
+   AADD( aCommand , "ps -aux" )
+AADD( aCommand , "uptime" )
+AADD( aCommand , "route -n" )
+AADD( aCommand , "ping –c 5 200.19.177.4" )
    AADD( aCommand , "ip address" )
    AADD( aCommand , "lshw -short" )
    AADD( aCommand , "df -h | grep -v loop" )
