@@ -1,4 +1,4 @@
-// 2022-11-03 7:10
+// 2022-11-03 7:19
 PROCEDURE MAIN
 
    LOCAL aCommand := {}, cCommand
