@@ -10,6 +10,7 @@ PROCEDURE MAIN
    AADD( aCommand , "dir" )
    AADD( aCommand , "echo %USERNAME%" )
    AADD( aCommand , "set" )
+   AADD( aCommand , "ipconfig" )
    
    FOR x := 1 TO LEN( aCommand )
        EXEC RUN aCommand[x]  TO cCommand
