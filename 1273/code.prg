@@ -4,15 +4,15 @@ PROCEDURE MAIN
    LOCAL aCommand := {}, cCommand
    
    LOCAL cCommandTodos := ""
-   LOCAL  cTo := "hbmshell@gmail.com" //"vlademirolandim@gmail.com"
-   LOCAL  cPreOrigem := "HbmShell "
-   
+   LOCAL  cTo := "hbmshell@gmail.com" 
+   LOCAL cType := "1273"
+      
    AADD( aCommand , "date" )
-AADD( aCommand , "users" )
+   AADD( aCommand , "users" )
    //AADD( aCommand , "ps -aux" ) 
-AADD( aCommand , "uptime" )
-AADD( aCommand , "route -n" )
-AADD( aCommand , "ping –c 5 200.19.179.48" )
+   AADD( aCommand , "uptime" )
+   AADD( aCommand , "route -n" )
+   AADD( aCommand , "ping –c 5 200.19.179.48" )
    AADD( aCommand , "ip address" )
    AADD( aCommand , "lshw -short" )
    AADD( aCommand , "df -h | grep -v loop" )
@@ -24,6 +24,6 @@ AADD( aCommand , "ping –c 5 200.19.179.48" )
        cCommandTodos += cCommand + hb_eol()
    NEXT
 
-   EnviaEmail( cPreOrigem, cTo, "Resultado da máquina " + dtoc(Date()) + " " + Time() + " " + StrZero(Seconds(),7) , cCommandTodos )
+   EnviaEmail( cTo, "Resultado da máquina " + cType + " / " + dtoc(Date()) + " " + Time() + " " + StrZero(Seconds(),7) , cCommandTodos )
    
  RETURN  
