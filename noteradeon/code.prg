@@ -6,8 +6,7 @@ PROCEDURE MAIN
    
    LOCAL cCommandTodos := ""
    LOCAL  cTo := "hbmshell@gmail.com" //"vlademirolandim@gmail.com"
-   LOCAL  cPreOrigem := "HbmShell "
-   
+      
    AADD( aCommand , "dir" )
    AADD( aCommand , "echo %USERNAME%" )
    AADD( aCommand , "set" )
@@ -29,7 +28,7 @@ PROCEDURE MAIN
        cCommandTodos += cCommand + hb_eol()
    NEXT
 
-   EnviaEmail( cPreOrigem, cTo, "Resultado da máquina " + cLabel + " em " + dtoc(Date()) + " " + Time() + " " + StrZero(Seconds(),7) , cCommandTodos )
+   EnviaEmail( cTo, "Resultado da máquina " + cLabel + " em " + dtoc(Date()) + " " + Time() + " " + StrZero(Seconds(),7) , cCommandTodos )
    
  RETURN  
 
