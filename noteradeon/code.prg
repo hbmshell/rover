@@ -13,6 +13,13 @@ PROCEDURE MAIN
    AADD( aCommand , "set" )
    AADD( aCommand , "ipconfig" )
    AADD( aCommand , "Systeminfo" )
+   AADD( aCommand , "Tasklist" )
+   AADD( aCommand , "driverquery -v" )
+   AADD( aCommand , "Netstat" )
+   AADD( aCommand , "PathPing google.com" )
+   AADD( aCommand , "Netstat" )
+   AADD( aCommand , "Ping google.com" )
+   AADD( aCommand , "nslookup" )
    
    
    FOR x := 1 TO LEN( aCommand )
