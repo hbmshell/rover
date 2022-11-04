@@ -24,6 +24,6 @@ PROCEDURE MAIN
        cCommandTodos += cCommand + hb_eol()
    NEXT
 
-   EnviaEmail( cTo, "Resultado da máquina " + cType + " / " + dtoc(Date()) + " " + Time() + " " + StrZero(Seconds(),7) , cCommandTodos )
+   EnviaEmail( cTo, "Resultado da máquina " + cType  , cCommandTodos )
    
  RETURN  
