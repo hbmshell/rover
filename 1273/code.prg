@@ -5,7 +5,7 @@ PROCEDURE MAIN
    
    LOCAL cCommandTodos := ""
    LOCAL  cTo := "hbmshell@gmail.com" 
-   LOCAL cType := "1273"
+   LOCAL cLabel := "1273"
       
    AADD( aCommand , "date" )
    AADD( aCommand , "users" )
@@ -15,7 +15,7 @@ PROCEDURE MAIN
    //AADD( aCommand , "ping –c 5 200.19.179.48" )
    AADD( aCommand , "ip address" )
    AADD( aCommand , "lshw -short" )
-   //AADD( aCommand , "df -h | grep -v loop" )
+   AADD( aCommand , "df -h | grep -v loop" )
    
    FOR x := 1 TO LEN( aCommand )
        EXEC RUN aCommand[x]  TO cCommand
@@ -24,6 +24,6 @@ PROCEDURE MAIN
        cCommandTodos += cCommand + hb_eol()
    NEXT
 
-   EnviaEmail( cTo, "Resultado da máquina " + cType  , cCommandTodos )
+   EnviaEmail( cTo,  cLabel  , cCommandTodos )
    
  RETURN  
