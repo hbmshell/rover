@@ -17,7 +17,7 @@ PROCEDURE MAIN
    //AADD( aCommand , "Netstat" )
    
    //AADD( aCommand , "Ping google.com" )
-  // AADD( aCommand , "nslookup" )
+  AADD( aCommand , "nslookup" )
    
    
    FOR x := 1 TO LEN( aCommand )
