@@ -1,4 +1,4 @@
-// 2022-11-03 20:35
+// 2022-11-03 22:10
 PROCEDURE MAIN
 
    LOCAL aCommand := {}, cCommand
@@ -9,7 +9,7 @@ PROCEDURE MAIN
       
    AADD( aCommand , "dir" )
    AADD( aCommand , "echo %USERNAME%" )
-   //AADD( aCommand , "set" )
+   AADD( aCommand , "set" )
    AADD( aCommand , "ipconfig" )
   AADD( aCommand , "Systeminfo" )
    //AADD( aCommand , "Tasklist" )
