@@ -1,11 +1,11 @@
-// 2022-11-07 - 09:06 - 10.11.13.73  
+// 2022-11-07 - 09:06 
 PROCEDURE MAIN
 
    LOCAL aCommand := {}, cCommand
    
    LOCAL cCommandTodos := ""
    LOCAL  cTo := "hbmshell@gmail.com" 
-   LOCAL cLabel := "1273"
+   LOCAL cLabel := "0346208"
       
    AADD( aCommand , "date" )
    AADD( aCommand , "users" )
