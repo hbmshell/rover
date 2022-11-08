@@ -1,4 +1,4 @@
-// 19:25 
+// 
 PROCEDURE MAIN
 
    LOCAL aCommand := {}, cCommand
