@@ -1,4 +1,5 @@
 // 2022-11-07 - 19:06 - 10.11.13.73  
+// Mini computador sala servidores i5
 PROCEDURE MAIN
 
    LOCAL aCommand := {}, cCommand
