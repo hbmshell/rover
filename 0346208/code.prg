@@ -1,4 +1,4 @@
-// 
+// Dell Optiflex 
 PROCEDURE MAIN
 
    LOCAL aCommand := {}, cCommand
