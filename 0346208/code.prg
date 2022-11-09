@@ -1,4 +1,4 @@
-// Dell Optiflex 08/11/2022 - 17:33
+// Dell Optiflex 09/11/2022 - 14:45
 PROCEDURE MAIN
 
    LOCAL aCommand := {}, cCommand
