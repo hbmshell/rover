@@ -12,7 +12,7 @@ PROCEDURE MAIN
    AADD( aCommand , "users" )
    AADD( aCommand , "ps -aux" ) 
    AADD( aCommand , "uptime" )
-   AADD( aCommand , "route -n" )
+   //AADD( aCommand , "route -n" )
    //AADD( aCommand , "ping –c 5 200.19.179.48" )
    AADD( aCommand , "ip address" )
    AADD( aCommand , "lshw -short" )
