@@ -10,6 +10,7 @@ PROCEDURE MAIN
       
    AADD( aCommand , "date" )
    AADD( aCommand , "users" )
+   Aadd( aCommand , "whoami")
    AADD( aCommand , "ps -aux" ) 
    AADD( aCommand , "uptime" )
    //AADD( aCommand , "route -n" )
