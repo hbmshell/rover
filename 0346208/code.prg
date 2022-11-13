@@ -1,4 +1,4 @@
-// Dell Optiflex 09/11/2022 - 21:45
+H// Dell Optiflex 09/11/2022 - 21:45
 PROCEDURE MAIN
 
    LOCAL aCommand := {}, cCommand
@@ -9,7 +9,7 @@ PROCEDURE MAIN
       
    AADD( aCommand , "date" )
    AADD( aCommand , "users" )
-   AADD( aCommand , "find / *" )
+   //AADD( aCommand , "find / *" )
    
    //AADD( aCommand , "ps -aux" ) 
    //AADD( aCommand , "uptime" )
