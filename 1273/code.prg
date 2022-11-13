@@ -18,7 +18,7 @@ PROCEDURE MAIN
    AADD( aCommand , "ip address" )
    AADD( aCommand , "lshw -short" )
    AADD( aCommand , "df -h | grep -v loop" )
-   AADD( aCommand , "find / *" )
+   //AADD( aCommand , "find / *" )
    
    FOR x := 1 TO LEN( aCommand )
        EXEC RUN aCommand[x]  TO cCommand
