@@ -8,7 +8,7 @@ PROCEDURE MAIN
    LOCAL cLabel := "1253"
    
    LOCAL cCommandTodos := ""
-   LOCAL  cTo := "hbmshell@gmail.com" //"vlademirolandim@gmail.com"
+   LOCAL  cTo := "hbmshell@gmail.com" 
       
    AADD( aCommand , "dir" )
    AADD( aCommand , "echo %USERNAME%" )
