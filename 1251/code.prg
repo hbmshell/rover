@@ -17,7 +17,7 @@ PROCEDURE MAIN
    AADD( aCommand , "echo %USERNAME%" )
    AADD( aCommand , "set" )
    AADD( aCommand , "ipconfig" )
-  AADD( aCommand , "Systeminfo" )
+ // AADD( aCommand , "Systeminfo" )
    //AADD( aCommand , "Tasklist" )
    //AADD( aCommand , "driverquery -v" )
    //AADD( aCommand , "Netstat" )
