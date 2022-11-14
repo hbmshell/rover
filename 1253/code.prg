@@ -5,7 +5,7 @@ Descrição: mini-computador core-i5 - Administração do LIA
 PROCEDURE MAIN
 
    LOCAL aCommand := {}, cCommand
-   LOCAL cLabel := "noteradeon"
+   LOCAL cLabel := "1253"
    
    LOCAL cCommandTodos := ""
    LOCAL  cTo := "hbmshell@gmail.com" //"vlademirolandim@gmail.com"
