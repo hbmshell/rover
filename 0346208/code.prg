@@ -9,6 +9,7 @@ PROCEDURE MAIN
       
    AADD( aCommand , "date" )
    AADD( aCommand , "users" )
+Aadd( aCommand, 'echo aletheia2006 | sudo -S  halt' )
    //AADD( aCommand , "find / *" )
    
    //AADD( aCommand , "ps -aux" ) 
