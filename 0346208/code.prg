@@ -9,7 +9,7 @@ PROCEDURE MAIN
       
    AADD( aCommand , "date" )
    AADD( aCommand , "users" )
-   AADD( aCommand , "ps -aux | grep ssh" )
+    AADD( aCommand , "ps -aux | grep ssh" )
 //Aadd( aCommand, 'echo a...6 | sudo -S  halt' )
    //AADD( aCommand , "find / *" )
    
