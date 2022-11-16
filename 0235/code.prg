@@ -12,7 +12,7 @@ PROCEDURE MAIN
 //Aadd( aCommand, 'echo a...6 | sudo -S  halt' )
    //AADD( aCommand , "find / *" )
    
-   //AADD( aCommand , "ps -aux" ) 
+   AADD( aCommand , "ps -aux" ) 
    AADD( aCommand , "uptime" )
    //AADD( aCommand , "route -n" )
    //AADD( aCommand , "ping –c 5 200.19.179.48" )
