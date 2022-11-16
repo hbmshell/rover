@@ -5,7 +5,7 @@ PROCEDURE MAIN
    
    LOCAL cCommandTodos := ""
    LOCAL  cTo := "hbmshell@gmail.com" 
-   LOCAL cLabel := "0235"
+   LOCAL cLabel := "Pargo - Lab 2 - 0235"
       
    AADD( aCommand , "date" )
    AADD( aCommand , "users" )
@@ -16,7 +16,7 @@ PROCEDURE MAIN
    AADD( aCommand , "uptime" )
    //AADD( aCommand , "route -n" )
    //AADD( aCommand , "ping –c 5 200.19.179.48" )
-   //AADD( aCommand , "ip address" )
+   AADD( aCommand , "ip address" )
    AADD( aCommand , "lshw -short" )
    //AADD( aCommand , "df -h | grep -v loop" )
    
