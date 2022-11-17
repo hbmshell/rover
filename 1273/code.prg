@@ -6,7 +6,7 @@ PROCEDURE MAIN
    
    LOCAL cCommandTodos := ""
    LOCAL  cTo := "hbmshell@gmail.com" 
-   LOCAL cLabel := "1273"
+   LOCAL cLabel := "Mini i5 - Sl Servidores - 1273"
       
    AADD( aCommand , "date" )
    AADD( aCommand , "users" )
