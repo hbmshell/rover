@@ -8,7 +8,7 @@ Descrição: mini-computador core-i5 - Administração do LIA
 PROCEDURE MAIN
 
    LOCAL aCommand := {}, cCommand
-   LOCAL cLabel := "Mini i5 - Sl.servidor - 1251"
+   LOCAL cLabel := "Mini i5 - AdmLia - 1251"
    
    LOCAL cCommandTodos := ""
    LOCAL  cTo := "hbmshell@gmail.com" 
