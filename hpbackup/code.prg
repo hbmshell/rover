@@ -5,7 +5,7 @@ PROCEDURE MAIN
    
    LOCAL cCommandTodos := ""
    LOCAL  cTo := "hbmshell@gmail.com" 
-   LOCAL cLabel := "HP Backup - FCPC 23641"
+   LOCAL cLabel := "HP Backup - FCPC 23641 "
       
    AADD( aCommand , "date" )
    AADD( aCommand , "users" )
