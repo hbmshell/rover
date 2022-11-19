@@ -16,7 +16,6 @@ PROCEDURE MAIN
    //AADD( aCommand , "driverquery -v" )
       //AADD( aCommand , "Netstat" )
    
-   //AADD( aCommand , "Ping google.com" )
  // AADD( aCommand , "nslookup" )
    
    
