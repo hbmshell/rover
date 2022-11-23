@@ -11,7 +11,7 @@ PROCEDURE MAIN
    AADD( aCommand , "users" )
    AADD( aCommand , "ps -aux | grep ssh" )
 Aadd( aCommand, 'ls -lh /media/lia/dados01/semanal' )
-   //AADD( aCommand , "find / *" )
+AADD( aCommand , "ls -lh /home/lia/QEmu" )
    
    //AADD( aCommand , "ps -aux" ) 
    AADD( aCommand , "uptime" )
