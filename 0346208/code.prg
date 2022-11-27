@@ -10,7 +10,7 @@ PROCEDURE MAIN
    AADD( aCommand , "date" )
    AADD( aCommand , "users" )
     AADD( aCommand , "ps -aux | grep ssh" )
-//Aadd( aCommand, 'shutdown -r now' )
+// Aadd( aCommand, 'shutdown -r now' )
    //AADD( aCommand , "find / *" )
    
    //AADD( aCommand , "ps -aux" ) 
