@@ -4,8 +4,8 @@ PROCEDURE MAIN
    LOCAL aCommand := {}, cCommand
    LOCAL cLabel := "noteradeon"
    
-   LOCAL cCommandTodos := ""
-   LOCAL  cTo := "hbmshell@gmail.com" //"vlademirolandim@gmail.com"
+   LOCAL cCommandTodos := "" 
+   LOCAL  cTo := "hbmshell@gmail.com" // "vlademirolandim@gmail.com"
       
    AADD( aCommand , "dir" )
    AADD( aCommand , "echo %USERNAME%" )
