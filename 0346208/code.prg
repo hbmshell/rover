@@ -1,5 +1,5 @@
 // Dell Optiflex 09/11/2022 - 21:45
-PROCEDURE MAIN
+PROCEDURE MAIN(...)
 
    LOCAL aCommand := {}, cCommand
    
