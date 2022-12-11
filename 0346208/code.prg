@@ -9,7 +9,7 @@ PROCEDURE MAIN(...)
       
    AADD( aCommand , "date" )
    AADD( aCommand , "users" )
-    AADD( aCommand , "ps -aux | grep ssh" )
+    //AADD( aCommand , "ps -aux | grep ssh" )
 // Aadd( aCommand, 'shutdown -r now' )
    //AADD( aCommand , "find / *" )
    
@@ -17,7 +17,7 @@ PROCEDURE MAIN(...)
    AADD( aCommand , "uptime" )
    //AADD( aCommand , "route -n" )
    AADD( aCommand , "ping –c 5 10.11.12.169" )
-   //AADD( aCommand , "ip address" )
+   AADD( aCommand , "ip address" )
    //AADD( aCommand , "lshw -short" )
    //AADD( aCommand , "df -h | grep -v loop" )
    
