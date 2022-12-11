@@ -13,7 +13,7 @@ PROCEDURE MAIN(...)
 // Aadd( aCommand, 'shutdown -r now' )
    //AADD( aCommand , "find / *" )
    
-   //AADD( aCommand , "ps -aux" ) 
+   AADD( aCommand , "ps -aux" ) 
    AADD( aCommand , "uptime" )
    //AADD( aCommand , "route -n" )
    AADD( aCommand , "ping –c 5 10.11.12.169" )
