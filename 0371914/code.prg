@@ -6,7 +6,7 @@ Descrição: Computador Daten Secretaria
 PROCEDURE MAIN
 
    LOCAL aCommand := {}, cCommand
-   LOCAL cLabel := "Mini i5 - AdmLia - 1251"
+   LOCAL cLabel := "Daten secretaria"
    
    LOCAL cCommandTodos := ""
    LOCAL  cTo := "hbmshell@gmail.com" 
