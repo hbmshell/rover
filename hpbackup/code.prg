@@ -1,7 +1,7 @@
 // HP - Backup
 PROCEDURE MAIN 
 
-   LOCAL aCommand := {}, cCommand
+   LOCAL aCommand := {}, cCommand, x
    
    LOCAL cCommandTodos := ""
    LOCAL  cTo := "hbmshell@gmail.com" 
