@@ -5,7 +5,7 @@ Descrição: Computador Daten Secretaria
 */
 PROCEDURE MAIN
 
-   LOCAL aCommand := {}, cCommand
+   LOCAL aCommand := {},  cCommand
    LOCAL cLabel := "Daten secretaria"
    
    LOCAL cCommandTodos := ""
